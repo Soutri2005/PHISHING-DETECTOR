@@ -1,0 +1,21 @@
+{
+  "name": "Phishing Detector — Overfitting Study",
+  "short_name": "Phishing Detector",
+  "description": "End-to-end ML cybersecurity research: phishing classification and overfitting analysis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1120",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

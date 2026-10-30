@@ -1,0 +1,8 @@
+experiment_id,model,max_depth_param,max_depth_numeric,min_samples_split,actual_depth,node_count,leaf_count,train_accuracy,val_accuracy,generalization_gap,val_precision,val_recall,val_f1,training_time,random_seed,timestamp
+DT_depth_2_mss_2,DecisionTreeClassifier,2,2,2,2,7,4,0.6266,0.6265,0.0001,0.0,0.0,0.0,0.3044,42,2026-10-25T17:48:34.615430+00:00
+DT_depth_5_mss_2,DecisionTreeClassifier,5,5,2,5,33,17,0.7454,0.7265,0.0189,0.5815,0.9552,0.7229,0.7287,42,2026-10-25T17:48:35.442046+00:00
+DT_depth_10_mss_2,DecisionTreeClassifier,10,10,2,10,157,79,0.8582,0.8342,0.024,0.7056,0.9542,0.8113,1.6027,42,2026-10-25T17:48:37.133467+00:00
+DT_depth_15_mss_2,DecisionTreeClassifier,15,15,2,15,309,155,0.9045,0.8703,0.0342,0.7612,0.9511,0.8456,2.3917,42,2026-10-25T17:48:39.635255+00:00
+DT_depth_20_mss_2,DecisionTreeClassifier,20,20,2,20,421,211,0.9322,0.8931,0.0391,0.7963,0.9593,0.8702,3.0427,42,2026-10-25T17:48:42.764887+00:00
+DT_depth_30_mss_2,DecisionTreeClassifier,30,30,2,30,535,268,0.9604,0.9167,0.0437,0.8497,0.944,0.8944,3.4685,42,2026-10-25T17:48:46.334296+00:00
+DT_depth_Unlimited_mss_2,DecisionTreeClassifier,Unlimited,50,2,261,1127,564,0.9999,0.9346,0.0653,0.901,0.9267,0.9137,5.0943,42,2026-10-25T17:48:51.528795+00:00

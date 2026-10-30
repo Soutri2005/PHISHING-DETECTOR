@@ -1,0 +1,11 @@
+Email Text,Email Type
+"URGENT: Your bank account has been locked due to suspicious activity. Click here to verify your credentials immediately: http://192.168.1.1/login",Phishing Email
+"Security Alert: Unauthorized login attempt detected from Russia. Please update your password immediately at https://security-verify-fake.com",Phishing Email
+"Dear customer, you have won a $1,000 Walmart gift card! Claim now by submitting your credit card number and SSN at http://claim-gift-card-now.net",Phishing Email
+"Action Required: Microsoft Office 365 password expiration notice. Reset your password within 24 hours to keep access.",Phishing Email
+"IRS Tax Refund Notification: We have determined you are eligible for an immediate tax refund of $480. Submit your banking details.",Phishing Email
+"Hey team, here are the meeting notes from today's sprint planning session. Let me know if you have any questions or feedback.",Safe Email
+"Can you please review the attached slide deck before our client presentation on Thursday morning? Thanks!",Safe Email
+"Reminder: Your scheduled dental cleaning appointment is on Monday at 3:00 PM. Reply STOP to cancel.",Safe Email
+"The weekly department status report has been uploaded to the internal SharePoint portal for your review.",Safe Email
+"Lunch tomorrow at noon at the usual Italian restaurant? Let me know if you can make it.",Safe Email

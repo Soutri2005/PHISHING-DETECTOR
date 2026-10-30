@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ─── Secrets — NEVER commit these (Item #3) ───────────────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+backend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ─── Next.js / Node ───────────────────────────────────────────────────────────
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+frontend/.eslintcache
+
+# ─── FastAPI / uvicorn ────────────────────────────────────────────────────────
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large raw datasets (ignore large raw download Phishing_Email.csv)
+data/raw/Phishing_Email.csv
+data/raw/*.parquet
+!data/raw/sample_synthetic.csv
+
+# Keep pre-trained models and reports so cloud deployment works immediately without retraining
+!models/*.joblib
+!reports/*.csv
+!reports/*.json

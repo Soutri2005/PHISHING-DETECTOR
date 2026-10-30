@@ -1,0 +1,40 @@
+{
+  "dataset_metadata": {
+    "source": "https://huggingface.co/datasets/zefang-liu/phishing-email-dataset",
+    "license": "Public Domain / CC0 / Research Mirror",
+    "description": "Real phishing and legitimate email corpus containing text subjects and bodies.",
+    "random_seed": 42
+  },
+  "cleaning_statistics": {
+    "initial_rows": 18650,
+    "invalid_labels_removed": 0,
+    "empty_text_removed": 19,
+    "exact_duplicates_removed": 1109,
+    "total_removed": 1128,
+    "final_clean_rows": 17522,
+    "phishing_count": 6544,
+    "legitimate_count": 10978
+  },
+  "partition_statistics": {
+    "train_size": 12264,
+    "val_size": 2629,
+    "test_size": 2629,
+    "train_phishing_pct": 37.35,
+    "val_phishing_pct": 37.35,
+    "test_phishing_pct": 37.35,
+    "train_val_leak_count": 0,
+    "train_test_leak_count": 0,
+    "val_test_leak_count": 0
+  },
+  "leakage_verification": {
+    "status": "PASSED - ZERO OVERLAP",
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "files_generated": {
+    "train": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\processed\\train.csv",
+    "val": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\processed\\val.csv",
+    "test": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\processed\\test.csv"
+  }
+}

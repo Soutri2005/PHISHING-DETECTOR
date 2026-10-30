@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-25T17:43:29.884652+00:00",
+    "random_seed": 42,
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "train_samples": 12264,
+    "val_samples": 2629,
+    "test_samples": 2629
+  },
+  "baseline_models": {
+    "naive_bayes": {
+      "train_accuracy": 0.9659,
+      "val_accuracy": 0.9589,
+      "generalization_gap": 0.007,
+      "val_precision": 0.9459,
+      "val_recall": 0.944,
+      "val_f1": 0.945,
+      "val_roc_auc": 0.9922,
+      "train_confusion_matrix": {
+        "tn": 7474,
+        "fp": 210,
+        "fn": 208,
+        "tp": 4372,
+        "raw": [
+          [
+            7474,
+            210
+          ],
+          [
+            208,
+            4372
+          ]
+        ]
+      },
+      "val_confusion_matrix": {
+        "tn": 1594,
+        "fp": 53,
+        "fn": 55,
+        "tp": 927,
+        "raw": [
+          [
+            1594,
+            53
+          ],
+          [
+            55,
+            927
+          ]
+        ]
+      },
+      "training_time_seconds": 22.519
+    },
+    "logistic_regression": {
+      "train_accuracy": 0.9861,
+      "val_accuracy": 0.9779,
+      "generalization_gap": 0.0082,
+      "val_precision": 0.9753,
+      "val_recall": 0.9654,
+      "val_f1": 0.9703,
+      "val_roc_auc": 0.9975,
+      "train_confusion_matrix": {
+        "tn": 7626,
+        "fp": 58,
+        "fn": 112,
+        "tp": 4468,
+        "raw": [
+          [
+            7626,
+            58
+          ],
+          [
+            112,
+            4468
+          ]
+        ]
+      },
+      "val_confusion_matrix": {
+        "tn": 1623,
+        "fp": 24,
+        "fn": 34,
+        "tp": 948,
+        "raw": [
+          [
+            1623,
+            24
+          ],
+          [
+            34,
+            948
+          ]
+        ]
+      },
+      "training_time_seconds": 24.529
+    },
+    "decision_tree": {
+      "train_accuracy": 0.9999,
+      "val_accuracy": 0.9346,
+      "generalization_gap": 0.0653,
+      "val_precision": 0.901,
+      "val_recall": 0.9267,
+      "val_f1": 0.9137,
+      "val_roc_auc": 0.9353,
+      "train_confusion_matrix": {
+        "tn": 7683,
+        "fp": 1,
+        "fn": 0,
+        "tp": 4580,
+        "raw": [
+          [
+            7683,
+            1
+          ],
+          [
+            0,
+            4580
+          ]
+        ]
+      },
+      "val_confusion_matrix": {
+        "tn": 1547,
+        "fp": 100,
+        "fn": 72,
+        "tp": 910,
+        "raw": [
+          [
+            1547,
+            100
+          ],
+          [
+            72,
+            910
+          ]
+        ]
+      },
+      "training_time_seconds": 27.566
+    },
+    "random_forest": {
+      "train_accuracy": 0.9999,
+      "val_accuracy": 0.9688,
+      "generalization_gap": 0.0311,
+      "val_precision": 0.9473,
+      "val_recall": 0.9705,
+      "val_f1": 0.9588,
+      "val_roc_auc": 0.9943,
+      "train_confusion_matrix": {
+        "tn": 7683,
+        "fp": 1,
+        "fn": 0,
+        "tp": 4580,
+        "raw": [
+          [
+            7683,
+            1
+          ],
+          [
+            0,
+            4580
+          ]
+        ]
+      },
+      "val_confusion_matrix": {
+        "tn": 1594,
+        "fp": 53,
+        "fn": 29,
+        "tp": 953,
+        "raw": [
+          [
+            1594,
+            53
+          ],
+          [
+            29,
+            953
+          ]
+        ]
+      },
+      "training_time_seconds": 108.829
+    }
+  },
+  "best_model": {
+    "key": "logistic_regression",
+    "validation_metrics": {
+      "train_accuracy": 0.9861,
+      "val_accuracy": 0.9779,
+      "generalization_gap": 0.0082,
+      "val_precision": 0.9753,
+      "val_recall": 0.9654,
+      "val_f1": 0.9703,
+      "val_roc_auc": 0.9975,
+      "train_confusion_matrix": {
+        "tn": 7626,
+        "fp": 58,
+        "fn": 112,
+        "tp": 4468,
+        "raw": [
+          [
+            7626,
+            58
+          ],
+          [
+            112,
+            4468
+          ]
+        ]
+      },
+      "val_confusion_matrix": {
+        "tn": 1623,
+        "fp": 24,
+        "fn": 34,
+        "tp": 948,
+        "raw": [
+          [
+            1623,
+            24
+          ],
+          [
+            34,
+            948
+          ]
+        ]
+      },
+      "training_time_seconds": 24.529
+    },
+    "test_metrics": {
+      "test_accuracy": 0.9776,
+      "test_precision": 0.9772,
+      "test_recall": 0.9623,
+      "test_f1": 0.9697,
+      "test_confusion_matrix": {
+        "tn": 1625,
+        "fp": 22,
+        "fn": 37,
+        "tp": 945,
+        "raw": [
+          [
+            1625,
+            22
+          ],
+          [
+            37,
+            945
+          ]
+        ]
+      },
+      "test_roc_auc": 0.9968
+    }
+  }
+}

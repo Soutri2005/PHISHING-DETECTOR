@@ -1,0 +1,11 @@
+# FastAPI backend requirements
+# Install with: pip install -r backend/requirements.txt
+
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+slowapi>=0.1.9
+pandas>=2.0.0
+# Re-use existing ML requirements from root requirements.txt
+# (joblib, scikit-learn, numpy already listed there)
