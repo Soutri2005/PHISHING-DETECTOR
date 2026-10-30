@@ -14,9 +14,8 @@ Metrics calculated:
 from __future__ import annotations
 
 import time
-from typing import Any, Dict, Optional, Tuple
+from typing import Any, Dict, Optional, Sequence, Tuple
 import numpy as np
-import pandas as pd
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
@@ -79,10 +78,10 @@ def compute_metrics(
 
 def evaluate_model(
     model: Any,
-    X_train: pd.Series,
-    y_train: pd.Series,
-    X_val: pd.Series,
-    y_val: pd.Series,
+    X_train: Any,
+    y_train: Any,
+    X_val: Any,
+    y_val: Any,
     training_time: float = 0.0,
 ) -> Dict[str, Any]:
     """
@@ -130,8 +129,8 @@ def evaluate_model(
 
 def evaluate_test_set(
     model: Any,
-    X_test: pd.Series,
-    y_test: pd.Series,
+    X_test: Any,
+    y_test: Any,
 ) -> Dict[str, Any]:
     """
     Evaluate the final selected model configuration on the untouched test partition.

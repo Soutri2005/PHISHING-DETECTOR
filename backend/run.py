@@ -7,6 +7,7 @@ Run from the project root:
 import os
 import subprocess
 import sys
+import uvicorn
 
 ENV = os.getenv("ENVIRONMENT", "development")
 HOST = "0.0.0.0"

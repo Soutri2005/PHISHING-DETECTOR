@@ -5,7 +5,9 @@ Serves pre-computed CSV experiment data from reports/ directory.
 import os
 
 import pandas as pd
+# pyrefly: ignore[missing-import, missing-module]
 from fastapi import APIRouter, HTTPException, Request
+# pyrefly: ignore[missing-import, missing-module]
 from fastapi.responses import JSONResponse
 from backend.middleware.limiter import limiter
 

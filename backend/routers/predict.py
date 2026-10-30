@@ -10,7 +10,9 @@ Wraps the existing src/predict.py module unchanged.
 import os
 import sys
 
+# pyrefly: ignore[missing-import]
 from fastapi import APIRouter, HTTPException, Request
+# pyrefly: ignore[missing-import]
 from pydantic import BaseModel, Field, field_validator
 
 # Ensure project root is importable (also done in main.py, but safe to repeat)

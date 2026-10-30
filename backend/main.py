@@ -12,11 +12,17 @@ import os
 import sys
 from contextlib import asynccontextmanager
 
+# pyrefly: ignore[missing-import]
 from fastapi import FastAPI
+# pyrefly: ignore[missing-import]
 from fastapi.middleware.cors import CORSMiddleware
+# pyrefly: ignore[missing-import]
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
+# pyrefly: ignore[missing-import]
 from fastapi.responses import JSONResponse
+# pyrefly: ignore[missing-import]
 from slowapi import _rate_limit_exceeded_handler
+# pyrefly: ignore[missing-import]
 from slowapi.errors import RateLimitExceeded
 
 # Ensure project root (parent of backend/) is on sys.path so src/ is importable
@@ -24,6 +30,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
+# pyrefly: ignore[missing-import]
 from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))

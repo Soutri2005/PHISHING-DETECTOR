@@ -5,6 +5,7 @@ Serves pre-computed JSON reports from reports/ directory.
 import json
 import os
 
+# pyrefly: ignore[missing-import]
 from fastapi import APIRouter, HTTPException, Request
 from backend.middleware.limiter import limiter
 

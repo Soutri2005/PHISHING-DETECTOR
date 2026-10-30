@@ -2,7 +2,9 @@
 Health check router.
 GET /api/health — liveness probe for the backend service.
 """
+# pyrefly: ignore[missing-import, missing-module]
 from fastapi import APIRouter
+# pyrefly: ignore[missing-import, missing-module]
 from fastapi.responses import JSONResponse
 
 router = APIRouter(tags=["Health"])

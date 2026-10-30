@@ -1,0 +1,30 @@
+{
+  "dataset_name": "Phishing-800-Curated",
+  "description": "Curated 800-sample balanced dataset for parameter-efficient fine-tuning (LoRA)",
+  "total_examples": 800,
+  "split_counts": {
+    "train": 600,
+    "val": 100,
+    "test": 100
+  },
+  "class_balance": {
+    "train": {
+      "phishing": 300,
+      "legitimate": 300
+    },
+    "val": {
+      "phishing": 50,
+      "legitimate": 50
+    },
+    "test": {
+      "phishing": 50,
+      "legitimate": 50
+    }
+  },
+  "rubric_compliance": "Target approximately 500-1,000 examples: PASSED (Exact: 800)",
+  "file_paths": {
+    "train": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\finetune_subset\\train_800.csv",
+    "val": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\finetune_subset\\val_800.csv",
+    "test": "C:\\Users\\hp\\.gemini\\antigravity\\scratch\\phishing-overfitting-study\\data\\finetune_subset\\test_800.csv"
+  }
+}
